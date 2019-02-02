@@ -1,26 +1,62 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0%;
-    margin: 0%;
-    
+    padding: 0;
+    margin: 0;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuL04-XzFXeSODk9Q2v0_O2T5InKavHcu5_S2MCbDv13S28dAr2w)  ;
+    line-height:1.5em;
 }
 
 .container{
-    width: 80%;
+    background-color: #fff;
+    width: auto;
     margin: auto;
     overflow: hidden;
+    
+}
+/* About Me */
+h1{
+    color: #4aaaa5;
 }
 
+/* Green Name */
+.name{
+    background: #4aaaa5;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Main Content Box DONE */
+section{
+    background-color: #fff ;
+    width: 300px 300px;
+    padding: 20px;
+    margin: 150px;
+    border: 1px solid #ddd;
+}
+
+img{
+    float: left;
+    
+}
+
+p{
+    text-align: justify;
+    line-height: 1.8;
+    
+}
+
+
+
 ul{
-    margin: 0%;
-    padding: 0%;
+    margin: auto;
+    padding: auto;
 }
 
 /*  Header */
 header{
-    background: #4aaaa5; 
-    color: #fff;
-    padding: 20px 20px;
+     
+    color: red;
+    
     border-bottom: #ddd 2px solid;
     
 }
@@ -28,11 +64,14 @@ header{
 header li{
     float:  left;
     display:inline;
-    padding: 20px 20px;
+    padding: 20px;
+    margin-right: 150px; 
   }
 
+  /* Jose Torres DONE */
 header #main-header{
     float:left;
+    margin-left: 150px;
   }
   
   header #main-header h1{
@@ -40,30 +79,23 @@ header #main-header{
   }
 
   header nav{
+    background-color: #fff;
     float:right;
-    margin-top:0px;
+    margin:0px;
+    
   }
 
-  img{
-      float: left;
-      
-  }
-
-  p{
-      text-align: right;
-      
-  }
+ /* Footer */
 
   footer{
     
-    padding:10px;
-    margin-top:10px;
+    padding:5px;
+    margin-top:200px;
     color:#ffffff;
-    background-color:#e8491d;
-    text-align: center;
-    border-top-color: #4aaaa5;
+    background-color:#666;
+    border-top: #4aaaa5 5px solid;
   }
 
-  #footer p{
+  p.center{
       text-align: center;
   }
