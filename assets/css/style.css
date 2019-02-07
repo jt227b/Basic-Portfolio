@@ -1,3 +1,7 @@
+*{box-sizing: border-box;
+
+}
+
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 0;
@@ -46,6 +50,7 @@ body{
     color: white;
     padding-left: 109px;
     padding-right: 104px;
+    bottom: 20px;
 
   }
 
