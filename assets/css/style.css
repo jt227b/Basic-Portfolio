@@ -1,4 +1,5 @@
 *{box-sizing: border-box;
+  
 
 }
 
@@ -20,60 +21,87 @@ body{
 
 .container-box {
     position: relative;
-    text-align: center;
+    
+    float: left;
+    margin: 20px;
   }
 
   .text-block1 {
+    box-sizing: border-box;
     position: absolute;
-    top: 185px;
+    top: 150px;
     left: 0px;
     background-color: #4aaaa5;
     color: white;
     padding-left: 120px;
     padding-right: 110px;
+    width: 300px;
+
   }
 
+  div{
+    display: block;
+  }
+
+
+
   .text-block2 {
+    box-sizing: border-box;
     position: absolute;
-    top: 185px;
-    left: 330px;
+    top: 150px;
+    left: 0px;
     background-color: #4aaaa5;
     color: white;
-    padding-left: 116px;
-    padding-right: 106.5px;
+    padding-left: 100px;
+    padding-right: 110px;
+    width: 300px;
+
   }
 
   .text-block3 {
+    box-sizing: border-box;
     position: absolute;
-    text-align: center;
-    background-color: red;
+    top: 150px;
+    left: 0px;
+    background-color: #4aaaa5;
     color: white;
-    padding-left: 109px;
-    padding-right: 104px;
-    bottom: 20px;
+    padding-left: 100px;
+    padding-right: 110px;
+    width: 300px;
 
   }
 
 
 
   .text-block4 {
+    box-sizing: border-box;
     position: absolute;
-    top: 600px;
+    top: 150px;
     left: 0px;
-    background-color: blue;
+    background-color: #4aaaa5;
     color: white;
-    padding-left: 120px;
-    padding-right: 110px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 300px;
+
   }
 
-.text-block5 {
+
+  .text-block5 {
+    box-sizing: border-box;
     position: absolute;
-    top: 800px;
+    top: 150px;
     left: 0px;
-    background-color: pink;
+    background-color: #4aaaa5;
     color: white;
-    padding-left: 120px;
-    padding-right: 110px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 300px;
+
+  }
+
+  img{
+    float: left;
   }
 
 .P-img{
@@ -137,10 +165,7 @@ section{
 
 
 
-img{
-    float: left;
-    
-}
+
 
 p{
     text-align: justify;
