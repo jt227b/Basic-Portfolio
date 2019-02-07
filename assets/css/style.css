@@ -14,6 +14,73 @@ body{
     
 }
 
+.container-box {
+    position: relative;
+    text-align: center;
+  }
+
+  .text-block1 {
+    position: absolute;
+    top: 185px;
+    left: 0px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 120px;
+    padding-right: 110px;
+  }
+
+  .text-block2 {
+    position: absolute;
+    top: 185px;
+    left: 330px;
+    background-color: #4aaaa5;
+    color: white;
+    padding-left: 116px;
+    padding-right: 106.5px;
+  }
+
+  .text-block3 {
+    position: absolute;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding-left: 109px;
+    padding-right: 104px;
+
+  }
+
+
+
+  .text-block4 {
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    background-color: blue;
+    color: white;
+    padding-left: 120px;
+    padding-right: 110px;
+  }
+
+.text-block5 {
+    position: absolute;
+    top: 800px;
+    left: 0px;
+    background-color: pink;
+    color: white;
+    padding-left: 120px;
+    padding-right: 110px;
+  }
+
+.P-img{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
 input[type=text], select {
     width: 100%;
     padding: 12px 20px;
